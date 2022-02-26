@@ -1,8 +1,4 @@
 
-```
-source("C:/Users/rezek/Documents/Info_201/a3-cameron-rezek/docs/analysis.R")
-```
-
 # **Analyzing Incarceration in the United States**
 
 The following report analyzes incarceration levels across all 50 states, specifically how different ethnicities are affected and the prominence of incarceration within the four major regions. Results show minorities are disproportionately jailed in the majority of counties when compared to the much higher Caucasian populace. The subject at hand is near and dear to my heart, and I hope that my findings bring more awareness to the ill effects that over-policing and the war on drugs have had on American citizens. The Vera Institute provided the incarceration data, and for my analysis, I have chosen to examine the numbers from 1990 to 2015. The population only includes those of working age, 15 to 64. Incarcerated persons from both prison and jail are combined. I have also defined four regions in the country, determined by the US Census.
@@ -49,20 +45,14 @@ Percentage of White prisoners in the Midwest (Total Prison Population): **53%**\
 Percentage of Black people in the Midwest (Total Population): **11%**\
 Percentage of White people in the Northeast (Total Population): **77%**
 
-```{r}
-over_time_plot
-```
+![](line_graph.png)
 
 This chart shows the increase of prison admissions over time (across the entire country) for the Black, White, and Latinx populations. It also includes the total prison admissions. I decided to have this chart in my report to show the highest and lowest points for prison admissions over the last 25 years. It showcases the disproportionate jailing of Black people in the past and conveys that the numbers have mainly decreased over time.
 
-```{r}
-variable_comparison_chart
-```
+![](variable_compare.png)
 
 This chart shows each region of the United States and its respective imprisoned populace by race. It's important because when looking at the total population numbers of each race, one can take away that minorities are disproportionately jailed compared with the White and AAPI populace. It also shows which regions of the United States may be more prone to racist practices in their policing.
 
-```{r}
-map_chart
-```
+![](map.png)
 
 This chart strictly shows Black incarceration numbers by state. When we analyze this chart, we can see that states with a higher population imprison more Black people. We can also see a trend in the Southern United States. Texas and Florida seem to be the biggest offenders, with the Northeast and California not far behind.
