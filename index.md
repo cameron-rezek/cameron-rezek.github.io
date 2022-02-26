@@ -1,11 +1,11 @@
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+```
+source("C:/Users/rezek/Documents/Info_201/a3-cameron-rezek/docs/analysis.R")
 ```
 
 # **Analyzing Incarceration in the United States**
 
-The following report analyzes incarceration levels across all 50 states, specifically how different ethnicities are affected and the prominence of incarceration within the four major regions. Results show minorities are disproportionately jailed in the majority of counties when compared to the much higher caucasian populace. The subject at hand is near and dear to my heart, and I hope that my findings bring more awareness to the ill effects that over-policing and the war on drugs have had on American citizens. The Vera Institute provided the incarceration data, and for my analysis, I have chosen to examine the numbers from 1990 to 2015. The population only includes those of working age, 15 to 64. Incarcerated persons from both prison and jail are combined. I have also defined four regions in the country, determined by the US Census.
+The following report analyzes incarceration levels across all 50 states, specifically how different ethnicities are affected and the prominence of incarceration within the four major regions. Results show minorities are disproportionately jailed in the majority of counties when compared to the much higher Caucasian populace. The subject at hand is near and dear to my heart, and I hope that my findings bring more awareness to the ill effects that over-policing and the war on drugs have had on American citizens. The Vera Institute provided the incarceration data, and for my analysis, I have chosen to examine the numbers from 1990 to 2015. The population only includes those of working age, 15 to 64. Incarcerated persons from both prison and jail are combined. I have also defined four regions in the country, determined by the US Census.
 
 Northeast: CT, ME, MA, NH, RI, VT, NJ, NY, PA
 
@@ -50,7 +50,6 @@ Percentage of Black people in the Midwest (Total Population): **11%**\
 Percentage of White people in the Northeast (Total Population): **77%**
 
 ```{r}
-source("C:/Users/rezek/Documents/Info_201/a3-cameron-rezek/docs/analysis.R")
 over_time_plot
 ```
 
